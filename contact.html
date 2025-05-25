@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - My E-commerce</title>
+    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="contact.css"> </head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="product-detail.html">Product Details</a></li>
+                <li><a href="checkout.html">Checkout Form</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-history.html">My Orders</a></li>
+                <li><a href="order-confirmation.html">Order Placed Confirmation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-content">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Whether you have a question about our products, need assistance with an order, or just want to provide feedback, please don't hesitate to reach out.</p>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <h3>Email Us</h3>
+                <p><a href="mailto:support@myecommerce.com">support@myecommerce.com</a></p>
+                <p>We aim to respond to all inquiries within 24-48 hours.</p>
+            </div>
+            <div class="info-item">
+                <h3>Call Us</h3>
+                <p>+91 12345 67890 (Mon-Fri, 9 AM - 5 PM IST)</p>
+                <p>For immediate assistance during business hours.</p>
+            </div>
+            <div class="info-item">
+                <h3>Visit Us</h3>
+                <p>My E-commerce HQ</p>
+                <p>Unit 10, Innovation Hub</p>
+                <p>Tech City, Karnataka, India - 560001</p>
+            </div>
+        </div>
+
+        <h3>Send Us a Message</h3>
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="contact.js"></script> </body>
+</html>

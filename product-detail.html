@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="productTitle">Product Details - My E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product-detail.css">
+</head>
+<body>
+    <header>
+        <h1 id="headerTitle">Product Details</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-history.html">My Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail-container">
+        <div id="product-detail-content">
+            <p id="loading-message">Loading product details...</p>
+            <p id="not-found-message" style="display: none;">Product not found.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="product-detail.js"></script>
+</body>
+</html>

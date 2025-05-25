@@ -1,0 +1,159 @@
+/* General styling for the categories content area */
+.categories-content {
+    padding: 40px 20px;
+    max-width: 1200px; /* Limit content width */
+    margin: 20px auto; /* Center the content */
+    text-align: center;
+}
+
+.categories-content h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.categories-content p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+/* Category Grid Layout */
+.category-grid {
+    display: grid;
+    /* This creates a responsive grid:
+       - auto-fit: allows as many columns as can fit
+       - minmax(280px, 1fr): columns will be at least 280px wide,
+                             but stretch to fill available space equally
+    */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px; /* Space between grid items (category cards) */
+    padding: 0 10px; /* Small padding if grid touches edges */
+}
+
+/* Individual Category Card Styling */
+.category-card {
+    background-color: #ffffff;
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden; /* Ensures image and content stay within rounded corners */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    display: flex; /* Use flexbox for vertical alignment of content */
+    flex-direction: column;
+    height: 100%; /* Make cards fill available height in grid row */
+}
+
+.category-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* More prominent shadow on hover */
+}
+
+/* Styling for the Category Images */
+.category-card .category-img {
+    width: 100%; /* Image takes full width of its card */
+    height: 200px; /* Fixed height for consistency among images */
+    object-fit: cover; /* This is crucial: crops the image to cover the area without distorting */
+    display: block; /* Removes extra space below image */
+    border-top-left-radius: 12px; /* Match card border-radius */
+    border-top-right-radius: 12px; /* Match card border-radius */
+    /* Optional: subtle bottom border */
+    border-bottom: 1px solid #eee;
+}
+
+/* Category Card Content (Text and Button) */
+.category-card h3 {
+    font-size: 1.6em;
+    color: #343a40;
+    margin: 20px 15px 10px; /* Top, horizontal, bottom margin */
+}
+
+.category-card p {
+    font-size: 1em;
+    color: #6c757d;
+    padding: 0 15px; /* Horizontal padding */
+    margin-bottom: 25px;
+    flex-grow: 1; /* Allows description to take up available space, pushing button down */
+    line-height: 1.5;
+    /* Optional: Limit lines for consistent height if descriptions vary greatly */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Styling for the "Shop Now" button */
+.category-card .btn {
+    display: inline-block; /* Allows padding and margin */
+    background-color: #007bff; /* Primary blue button color */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px; /* Slightly rounded button */
+    text-decoration: none; /* Remove underline from link */
+    font-weight: 600;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin: 0 15px 20px; /* Horizontal and bottom margin */
+    align-self: center; /* Center the button if .category-card is flex column */
+    width: auto; /* Allow button to size based on content */
+    max-width: calc(100% - 30px); /* Prevent button from overflowing card */
+}
+
+.category-card .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .categories-content {
+        padding: 30px 15px;
+    }
+
+    .categories-content h2 {
+        font-size: 2em;
+    }
+
+    .categories-content p {
+        font-size: 0.95em;
+        margin-bottom: 30px;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+        gap: 20px;
+    }
+
+    .category-card {
+        max-width: 350px; /* Limit width of single cards on mobile */
+        margin: 0 auto; /* Center single cards */
+    }
+
+    .category-card .category-img {
+        height: 180px; /* Slightly smaller image height on mobile */
+    }
+
+    .category-card h3 {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+
+    .category-card p {
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+
+    .category-card .btn {
+        padding: 10px 20px;
+        font-size: 0.95em;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-card .category-img {
+        height: 150px; /* Even smaller image height for very small screens */
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - My E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-history.html">My Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="checkout-container">
+        <section class="checkout-steps">
+            <h2>Shipping Information</h2>
+            <form id="shipping-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="text" id="zipCode" name="zipCode" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+                </div>
+            </form>
+
+            <h2>Payment Information (Simulated)</h2>
+            <div class="payment-info">
+                <p>This is a simulated payment process. No real card details are collected.</p>
+                <div class="form-group">
+                    <label for="cardNumber">Card Number:</label>
+                    <input type="text" id="cardNumber" placeholder="**** **** **** ****" disabled>
+                </div>
+                <div class="form-group half-width">
+                    <label for="expDate">Expiry Date:</label>
+                    <input type="text" id="expDate" placeholder="MM/YY" disabled>
+                </div>
+                <div class="form-group half-width">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" placeholder="***" disabled>
+                </div>
+                <p class="small-text">You can click "Place Order" directly.</p>
+            </div>
+
+            <section class="order-summary-checkout">
+                <h2>Your Order</h2>
+                <div id="checkout-order-items">
+                    </div>
+                <div class="summary-line">
+                    <span>Subtotal:</span> <span id="checkout-subtotal">₹0</span>
+                </div>
+                <div class="summary-line">
+                    <span>Shipping:</span> <span id="checkout-shipping-cost">₹0</span>
+                </div>
+                <div class="summary-line total">
+                    <span>Total:</span> <span id="checkout-grand-total">₹0</span>
+                </div>
+            </section>
+
+            <button id="place-order-btn">Place Order</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>

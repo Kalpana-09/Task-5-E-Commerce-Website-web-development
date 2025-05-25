@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - My E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order-history.css">
+</head>
+<body>
+    <header>
+        <h1>My Orders</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-history.html">My Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="order-history-container">
+        <div id="order-list">
+            <p id="no-orders-message" style="display: none;">You haven't placed any orders yet.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="order-history.js"></script>
+</body>
+</html>

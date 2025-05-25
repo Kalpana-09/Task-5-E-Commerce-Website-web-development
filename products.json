@@ -1,0 +1,255 @@
+[
+    {
+        "id": "prod_001",
+        "name": "Stylish Headphones",
+        "description": "Experience immersive audio with our stylish, noise-cancelling headphones. Perfect for music lovers and professionals alike. Features include long battery life, ergonomic design, and crystal-clear sound.",
+        "price": 2499,
+        "currency": "₹",
+        "image": "headphones.jpg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_002",
+        "name": "Smartwatch Pro",
+        "description": "Stay connected and track your fitness with the Smartwatch Pro. It offers heart rate monitoring, sleep tracking, notifications, and customizable watch faces. Waterproof and durable.",
+        "price": 8999,
+        "currency": "₹",
+        "image": "smart watch.jpg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_003",
+        "name": "Ergonomic Office Chair",
+        "description": "Designed for ultimate comfort and support during long working hours. Features adjustable lumbar support, breathable mesh, and a sturdy five-point base. Improve your posture and productivity.",
+        "price": 6750,
+        "currency": "₹",
+        "image": "chair.webp",
+        "category": "home-kitchen"
+    },
+    {
+        "id": "prod_004",
+        "name": "Portable Bluetooth Speaker",
+        "description": "Powerful sound in a compact design, ideal for outdoor adventures or home use. Enjoy rich bass and clear highs with extended battery life. Connects wirelessly via Bluetooth.",
+        "price": 1800,
+        "currency": "₹",
+        "image": "bluetooth speaker.jpeg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_005",
+        "name": "Premium Coffee Maker",
+        "description": "Brew your favorite coffee with ease and precision. Features programmable settings, a thermal carafe to keep coffee hot, and a sleek, modern design that complements any kitchen.",
+        "price": 3200,
+        "currency": "₹",
+        "image": "coffee maker.webp",
+        "category": "home-kitchen"
+    },
+    {
+        "id": "prod_006",
+        "name": "HD Webcam",
+        "description": "Crystal clear video calls and streaming with autofocus and a wide-angle lens. Perfect for remote work, online classes, and connecting with friends and family. Easy plug-and-play setup.",
+        "price": 1500,
+        "currency": "₹",
+        "image": "hd webcam.jpeg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_007",
+        "name": "Gaming Laptop Pro",
+        "description": "High-performance gaming laptop with RTX graphics and fast refresh rate display. Ideal for serious gamers and creative professionals.",
+        "price": 75000,
+        "currency": "₹",
+        "image": "laptop.jpeg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_008",
+        "name": "Wireless Ergonomic Mouse",
+        "description": "Comfortable and precise wireless mouse designed for long hours of use, reducing wrist strain.",
+        "price": 1200,
+        "currency": "₹",
+        "image": "wireless-mouse.jpeg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_009",
+        "name": "4K Smart TV",
+        "description": "Immersive 4K UHD viewing experience with smart features, access to streaming apps, and voice control.",
+        "price": 45000,
+        "currency": "₹",
+        "image": "smart-tv.jpg",
+        "category": "electronics"
+    },
+    {
+        "id": "prod_010",
+        "name": "Robot Vacuum Cleaner",
+        "description": "Intelligent robot vacuum with powerful suction and smart mapping, keeps your home spotless effortlessly.",
+        "price": 18000,
+        "currency": "₹",
+        "image": "robot-vacuum.jpeg",
+        "category": "home-kitchen"
+    },
+    {
+        "id": "prod_011",
+        "name": "Air Fryer XL",
+        "description": "Cook healthier meals with less oil. Large capacity air fryer for families, with multiple presets.",
+        "price": 6500,
+        "currency": "₹",
+        "image": "air-fryer.jpg",
+        "category": "home-kitchen"
+    },
+    {
+        "id": "prod_012",
+        "name": "Blender & Smoothie Maker",
+        "description": "High-speed blender for smoothies, soups, and sauces. Easy to clean and durable construction.",
+        "price": 4200,
+        "currency": "₹",
+        "image": "blender.jpg",
+        "category": "home-kitchen"
+    },
+    {
+        "id": "prod_013",
+        "name": "Stainless Steel Cookware Set",
+        "description": "Durable and elegant stainless steel cookware set for all your culinary needs. Compatible with induction.",
+        "price": 9800,
+        "currency": "₹",
+        "image": "cookware-set.jpg",
+        "category": "home-kitchen"
+    },
+    {
+        "id": "prod_014",
+        "name": "Luxury Silk Scarf",
+        "description": "Elegant 100% silk scarf, perfect for adding a touch of sophistication to any outfit. Available in multiple colors.",
+        "price": 2800,
+        "currency": "₹",
+        "image": "silk-scarf.jpg",
+        "category": "fashion"
+    },
+    {
+        "id": "prod_015",
+        "name": "Men's Classic Leather Wallet",
+        "description": "Genuine leather wallet with multiple card slots and a sleek, minimalist design. Durable and stylish.",
+        "price": 1500,
+        "currency": "₹",
+        "image": "leather-wallet.jpg",
+        "category": "fashion"
+    },
+    {
+        "id": "prod_016",
+        "name": "Women's Summer Dress",
+        "description": "Light and airy floral summer dress, perfect for casual outings or beach holidays. Comfortable fit.",
+        "price": 2100,
+        "currency": "₹",
+        "image": "summer-dress.png",
+        "category": "fashion"
+    },
+    {
+        "id": "prod_017",
+        "name": "Unisex Running Shoes",
+        "description": "Lightweight and breathable running shoes providing excellent comfort and support for daily runs.",
+        "price": 3900,
+        "currency": "₹",
+        "image": "running-shoes.jpeg",
+        "category": "fashion"
+    },
+    {
+        "id": "prod_018",
+        "name": "Fantasy Novel Series",
+        "description": "Embark on an epic journey with this best-selling fantasy novel series. A must-read for adventurers.",
+        "price": 1200,
+        "currency": "₹",
+        "image": "fantasy-novel.jpeg",
+        "category": "books"
+    },
+    {
+        "id": "prod_019",
+        "name": "Beginner's Coding Book",
+        "description": "Learn to code from scratch with this easy-to-follow guide, perfect for aspiring developers.",
+        "price": 750,
+        "currency": "₹",
+        "image": "coding-book.jpg",
+        "category": "books"
+    },
+    {
+        "id": "prod_020",
+        "name": "Mystery Thriller",
+        "description": "A gripping mystery that will keep you on the edge of your seat until the very last page.",
+        "price": 550,
+        "currency": "₹",
+        "image": "mystery-thriller.jpeg",
+        "category": "books"
+    },
+    {
+        "id": "prod_021",
+        "name": "Yoga Mat Pro",
+        "description": "Premium non-slip yoga mat designed for ultimate grip and comfort during your practice. Eco-friendly material.",
+        "price": 1800,
+        "currency": "₹",
+        "image": "yoga-mat.jpeg",
+        "category": "sports-outdoors"
+    },
+    {
+        "id": "prod_022",
+        "name": "Camping Tent (2-Person)",
+        "description": "Lightweight and durable 2-person camping tent, easy to set up for your outdoor adventures.",
+        "price": 4500,
+        "currency": "₹",
+        "image": "camping-tent.jpeg",
+        "category": "sports-outdoors"
+    },
+    {
+        "id": "prod_023",
+        "name": "Hiking Backpack",
+        "description": "Ergonomic hiking backpack with multiple compartments and hydration compatibility for long treks.",
+        "price": 3200,
+        "currency": "₹",
+        "image": "hiking-backpack.jpeg",
+        "category": "sports-outdoors"
+    },
+    {
+        "id": "prod_024",
+        "name": "Resistance Band Set",
+        "description": "Versatile resistance band set for full-body workouts, perfect for home gyms or on-the-go fitness.",
+        "price": 900,
+        "currency": "₹",
+        "image": "resistance-bands.jpeg",
+        "category": "sports-outdoors"
+    },
+    {
+        "id": "prod_025",
+        "name": "Organic Moisturizer",
+        "description": "Deeply hydrating organic facial moisturizer with natural ingredients for healthy, glowing skin.",
+        "price": 1100,
+        "currency": "₹",
+        "image": "organic-moisturizer.webp",
+        "category": "health-beauty"
+    },
+    {
+        "id": "prod_026",
+        "name": "Aromatherapy Diffuser",
+        "description": "Ultrasonic essential oil diffuser with ambient light, creates a calming and fragrant atmosphere.",
+        "price": 2200,
+        "currency": "₹",
+        "image": "aroma-diffuser.jpeg",
+        "category": "health-beauty"
+    },
+    {
+        "id": "prod_027",
+        "name": "Vitamin C Serum",
+        "description": "Potent Vitamin C serum for brighter, more even skin tone and anti-aging benefits.",
+        "price": 1300,
+        "currency": "₹",
+        "image": "vitamin-c-serum.webp",
+        "category": "health-beauty"
+    },
+    {
+        "id": "prod_028",
+        "name": "Luxury Bath Bomb Set",
+        "description": "Indulge in a relaxing bath experience with this set of beautifully crafted, scented bath bombs.",
+        "price": 850,
+        "currency": "₹",
+        "image": "bath-bombs.jpg",
+        "category": "health-beauty"
+    }
+   
+]

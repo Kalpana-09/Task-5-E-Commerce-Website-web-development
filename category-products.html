@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Products - My E-commerce</title>
+    <link rel="stylesheet" href="style.css">      <link rel="stylesheet" href="product-list.css"> </head>
+<body>
+    <header>
+        <h1><span id="category-title">All</span> Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="product-detail.html">Product Details (Example)</a></li>
+                <li><a href="checkout.html">Checkout Form (Example)</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-history.html">My Orders (Example)</a></li>
+                <li><a href="order-confirmation.html">Order Placed (Example)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="product-listing">
+            <h2 id="section-title">Products in <span id="current-category-name">Category</span></h2>
+            <p id="loading-message">Loading products...</p>
+            <div id="productGrid" class="product-grid">
+            </div>
+            <p id="no-products-message" style="display: none; text-align: center; padding: 30px; font-size: 1.2em; color: #777;">No products found in this category.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>         <script src="category-script.js"></script> </body>
+</html>

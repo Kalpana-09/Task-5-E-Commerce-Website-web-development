@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - My E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order-confirmation.css">
+</head>
+<body>
+    <header>
+        <h1>Order Confirmation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-history.html">My Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="confirmation-container">
+        <div id="confirmation-content">
+            <p id="confirmation-message">Thank you for your order!</p>
+            <p>Your order ID is: <strong id="order-id-display">Loading...</strong></p>
+
+            <h2>Order Summary</h2>
+            <div id="confirmed-order-items">
+                </div>
+            <div class="summary-line">
+                <span>Subtotal:</span> <span id="confirmed-subtotal">₹0</span>
+            </div>
+            <div class="summary-line">
+                <span>Shipping:</span> <span id="confirmed-shipping-cost">₹0</span>
+            </div>
+            <div class="summary-line total">
+                <span>Total:</span> <span id="confirmed-grand-total">₹0</span>
+            </div>
+
+            <h2>Shipping Details</h2>
+            <p id="confirmed-shipping-details">Loading...</p>
+
+            <button onclick="window.location.href='index.html'">Continue Shopping</button>
+            <button onclick="window.location.href='order-history.html'">View All Orders</button>
+        </div>
+        <p id="error-message-confirmation" style="display: none;">Could not find order details.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My E-commerce. All rights reserved.</p>
+    </footer>
+
+    <script src="common.js"></script>
+    <script src="order-confirmation.js"></script>
+</body>
+</html>

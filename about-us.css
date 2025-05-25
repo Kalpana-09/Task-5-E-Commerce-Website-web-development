@@ -1,0 +1,43 @@
+/* Styles specific to the About Us page */
+.about-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    line-height: 1.8;
+}
+
+.about-content h2 {
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.about-content h3 {
+    color: #34495e;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.about-content ul {
+    list-style: disc;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-content ul li {
+    margin-bottom: 8px;
+}
+
+.about-content ul li strong {
+    color: #333;
+}
